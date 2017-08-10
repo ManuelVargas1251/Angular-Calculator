@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="style.css">
+
+<h1><a href="https://angularjs.org/">Angular</a> Calculator</h1>
+
+
+<p>Just a test of a calculator
+<hr>
+<div ng-app="" ng-init="operand_1=2;operand_2=5">
+    <input type="number" ng-model="operand_1">
+    <input type="number" ng-model="operand_2">
+    <p>
+    <hr></p>
+
+<table><thead>
+<tr>
+<th>Operation</th>
+<th>Solution</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Addition</td>
+<td>{{operand_1+operand_2}}</td>
+</tr>
+<tr>
+<td>Subtraction</td>
+<td>{{operand_1-operand_2}}</td>
+</tr>
+<tr>
+<td>Multiplication</td>
+<td>{{operand_1*operand_2}}</td>
+</tr>
+<tr>
+<td>Division</td>
+<td>{{operand_1/operand_2}}</td>
+</tr>
+</tbody></table>
+
+<p></div></p>
+
+<h2>Is this a <a href="#">Calculator</a>?</h2>
+
+<p>yeah</p>
+
+<script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>

@@ -1,0 +1,1 @@
+$scope.Math = window.Math;

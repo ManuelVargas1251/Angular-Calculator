@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+
+html{
+	font-family: 'Droid Sans Mono',helvetica;
+	font-size: 140%;
+	background-color: #1c1c1c;
+	color: #eee;
+	padding: 20px;
+	padding-top: 0px;
+}
+a{
+	text-decoration: none;
+	color: lightgreen;
+}
+a:hover{
+	color: #eee;
+}
+
+input, input[type=number]{
+	padding: 10px;
+	font-size: 29px;
+	margin: 0px;
+	width: 120px;
+	height: 30px;
+	padding: 0 8px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+	opacity: 1;
+	color:red;
+
+}
+
+table{
+	border: 1px solid white;
+	border-collapse: collapse;
+	font-size: 120%;
+}
+
+td,th{
+	border: 1px solid white;
+	padding: 6px;
+}
